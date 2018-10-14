@@ -189,8 +189,9 @@ public class MST {
     }
 
     public static void main(String[] args) {
-        try{
 
+
+        try{
             int testsFailed = 0;
             int batchNum = Integer.parseInt(args[0]);
             int numTests = Integer.parseInt(args[1]);
@@ -244,6 +245,7 @@ public class MST {
                 System.out.println("Failed " +testsFailed+ " tests");
             }
             System.out.println("=======================================");
+
         } catch(Exception e)
         {
             e.printStackTrace();
