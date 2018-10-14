@@ -52,7 +52,6 @@ import java.util.LinkedList;
 import java.util.Iterator;
 
 import java.util.ArrayList;
-import java.util.PriorityQueue;
 
 public class MST {
 
@@ -72,7 +71,7 @@ public class MST {
         int n = adj.length;
         int totalWeight = 0;
 
-        // Set up UF data structures -> O(n) time
+        // Set up UF -> O(n) time
         int [] id = new int[n];
         int [] componentSize = new int [n];
         for(int i = 0; i < id.length; i++) {
@@ -80,22 +79,10 @@ public class MST {
             componentSize[i] = 0;
         }
 
-        /*
-        Algotithm:
-         * while(heap not empty && #edges in mst < n - 1)
-         *          e = heap.deleteMin
-         *          v = e.either()
-         *          u = e.other(v)
-         *          if(!connected(v, u)
-         *                  union(v, u)
-         *                  totalWeight += weight(e)
-         */
-
-
         // Build sorted list of edges -> O(2m) = O(m)
         ArrayList<int[]> edgeList = buildEdgeList(adj);
 
-        // Main loop -> O (m x max {runtime(union), runtime(connected) }) = O(m x log*(n))
+        // Main loop -> O(m x log*(n))
         int m = 0;
         for(int [] edge : edgeList) {
             if(!(connected(edge[0], edge[1], id))) {
@@ -110,8 +97,9 @@ public class MST {
     }
 
     /*
-     * Builds and returns a sorted arraylist containing each edge in acending order by weight
-     * Edges are represented as a 3-element int array {vertex 1, vertex 2, edgeWeight)
+     * Builds and returns a sorted ArrayList containing each edge in ascending order by
+     * weight.
+     * Edges are represented as 3-element int arrays {vertex 1, vertex 2, edgeWeight).
      * @pre adj is not null and well formed
      * @post return is not null
      */
@@ -121,8 +109,6 @@ public class MST {
         int [] edge;
         for(int i = 0; i < adj.length; i++) {
             for(int j = 0; j < adj[i].length; j++) {
-                // edge is (i, adj[i][j][0]) with weight adj[i][j][1]
-                // weight listed as 0 means no edge, I think....
                 v = adj[i][j][0];
                 weight = adj[i][j][1];
 
@@ -192,7 +178,7 @@ public class MST {
         return find(u, id) == find(v, id);
     }
 
-    // testing helper
+    // testing helper function
     private static String padToSize(int x)
     {
         String padded = "" + x;

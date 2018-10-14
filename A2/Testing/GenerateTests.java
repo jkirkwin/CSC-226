@@ -2,12 +2,14 @@ import java.io.*;
 import java.util.*;
 public class GenerateTests
 {
-    private static final int MAX_VERTICES = 999;
+    private static final int MAX_VERTICES = 500;
     private static final String TEST_PATH = "Generated" + File.separator;
 
     /*
      * Randomly generates a batch of input/output test files
      * for connected, weighted graphs and the weight of their MST
+     *
+     * User must create a directory called "Generated" for this to work because I'm lazy
      */
     public static void main(String [] args)
     {
@@ -44,17 +46,7 @@ public class GenerateTests
                 assert outputFile.createNewFile();
                 PrintStream inputPS = new PrintStream(inputFile);
                 PrintStream outputPS = new PrintStream(outputFile);
-
-                System.out.println("Creating graphwrapper on " + n + " vertices");
                 GraphWrapper gw = new GraphWrapper(n);
-
-                System.out.println("--");
-                System.out.println("GW Stats");
-                System.out.println("n = " + gw.n);
-                System.out.println("m = " + gw.m);
-                System.out.println("mstWeight = " + gw.mstWeight);
-                System.out.println("--");
-
                 inputPS.println(n);
                 for(int i = 0; i < n; i++)
                 {
@@ -64,9 +56,7 @@ public class GenerateTests
                     }
                     inputPS.println();
                 }
-
                 outputPS.println(gw.mstWeight);
-
             }
             readMeStream.println("Tests generated");
         } catch (IOException ioe)

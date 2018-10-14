@@ -32,11 +32,9 @@ public class GraphWrapper
             }
             if(!connected(u, v) || adj[u][v] == 0)
             {
-                System.out.println("Adding edge (" +u+ ", " +v+") to graph");
                 if(!connected(u, v))
                 {
                     this.mstWeight += edgeWeight;
-                    System.out.println("Adding edge to MST");
                 }
                 union(u,v);
                 adj[u][v] = edgeWeight;
@@ -55,13 +53,23 @@ public class GraphWrapper
     public void union(int u, int v)
     {
         if(connected(u,v)) return;
-        int parent = id[u];
+        int parentID, changeID;
+        if(id[u] < id[v])
+        {
+            parentID = id[v];
+            changeID = id[u];
+        }
+        else
+        {
+            parentID = id[u];
+            changeID = id[v];
+        }
+
         for(int i = 0; i < id.length; i++)
         {
-            if(id[i] == parent) id[i] = id[v];
+            if(id[i] == changeID) id[i] = parentID;
         }
     }
-
 
     private boolean isGraphConnected()
     {
@@ -72,5 +80,4 @@ public class GraphWrapper
         }
         return true;
     }
-
 }
