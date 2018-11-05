@@ -25,3 +25,5 @@ hs_err_pid*
 A1/Testing/*
 
 A2/Testing/*
+
+A2/Testing/Provided/*.txt
