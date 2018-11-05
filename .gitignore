@@ -27,3 +27,7 @@ A1/Testing/*
 A2/Testing/*
 
 A2/Testing/Provided/*.txt
+
+A3/Resources
+
+A3/*.class

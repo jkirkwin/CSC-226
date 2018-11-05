@@ -36,6 +36,11 @@
    (revised by N. Mehta - 10/24/2018)
 */
 
+/*
+    Assignment done by Jamie K
+    Nov 2018
+ */
+
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -49,11 +54,12 @@ public class ShortestPaths{
 
     private static PriorityQueue<WeightedEdge> pq;
     private static boolean [] marked;
-    private static boolean visited;
     private static int [] d; // distance to a node from src
     public static int n; // number of vertices
     public static int [] pi; // gives path from src to each vertex
 
+    // A helper used to make the code readible; otherwise we have to work directly with adj and the total lack of
+    // intuition that comes with using that array of ints.
     private static class WeightedEdge {
         private int to;
         private int from;
@@ -92,9 +98,7 @@ public class ShortestPaths{
        All weights will be positive.
     */
     static void ShortestPaths(int[][][] adj, int source){
-        // Store result in global variable pathLengths because they want this to be static for some reason
-
-        // Initialize globals to be used
+        // Initialize globals to be used (ew)
         n = adj.length;
         ArrayList<ArrayList<WeightedEdge>> edgeList = makeEdgeList(adj);
 
@@ -112,8 +116,6 @@ public class ShortestPaths{
         }
 
         pq = new PriorityQueue<WeightedEdge>( (e, f) -> {
-            // TODO figure out if this still lets us have ElogE time. If not, the code needs to be refactored.
-            // edges are of the form [u,v,w] where ua nd v are vertecies and w is the weight of the edge.
             int x = d[e.from()] + e.weight();
             int y = d[f.from()] + f.weight();
 
@@ -150,8 +152,8 @@ public class ShortestPaths{
     }
 
     /*
-     * Creates an adjacency list that is a little (but not much) less horrific than the one given
-     * edgeList.get(i) gives an arraylist of edges incident to vertex i
+     * Creates an adjacency list that is a little (but not much) less horrific than the one given.
+     * edgeList.get(i) gives an arraylist of edges incident to vertex i.
      */
     private static ArrayList<ArrayList<WeightedEdge>> makeEdgeList(int[][][] adj) {
         ArrayList<ArrayList<WeightedEdge>> edgeList = new ArrayList<ArrayList<WeightedEdge>>();
@@ -172,7 +174,7 @@ public class ShortestPaths{
     static void PrintPaths(int source){
         for(int i = 0; i < n; i++) {
             System.out.print("The path from " + source + " to " + i +" is: " + getPath(source, i));
-            System.out.println(" and the total distance is: " + d[i]);
+            System.out.println(" and the total distance is : " + d[i]);
         }
     }
 
@@ -242,6 +244,7 @@ public class ShortestPaths{
                 break;
             }
 
+            /*
             // output the adjacency list representation of the graph
             for(int i = 0; i < n; i++) {
                 System.out.print(i + ": ");
@@ -252,15 +255,15 @@ public class ShortestPaths{
             }
 
             long startTime = System.currentTimeMillis();
-
+            */
             ShortestPaths(adj, 0);
             PrintPaths(0);
-            long endTime = System.currentTimeMillis();
-            totalTimeSeconds += (endTime-startTime)/1000.0;
+//            long endTime = System.currentTimeMillis();
+//            totalTimeSeconds += (endTime-startTime)/1000.0;
 
             //System.out.printf("Graph %d: Minimum weight of a 0-1 path is %d\n",graphNum,totalWeight);
         }
         graphNum--;
-        System.out.printf("Processed %d graph%s.\nAverage Time (seconds): %.2f\n",graphNum,(graphNum != 1)?"s":"",(graphNum>0)?totalTimeSeconds/graphNum:0);
+        System.out.printf("Processed %d graphs.",graphNum);
     }
 }
