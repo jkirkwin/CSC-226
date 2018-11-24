@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e31befb-0a24-4d38-b172-a73ddccf87ad" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="941424713">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.113" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="6" />
+          <entry key="in00" value="1" />
+          <entry key="java" value="24" />
+          <entry key="txt" value="107" />
+          <entry key="vanillaIn02" value="1" />
+          <entry key="vanillaOut02" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="23" />
+          <entry key="PLAIN_TEXT" value="117" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="73" />
+          <entry key="java" value="32132" />
+          <entry key="txt" value="782" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="32078" />
+          <entry key="PLAIN_TEXT" value="909" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A4/KMP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#1187#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>f.</find>
+      <find>path</find>
+      <find>padded</find>
+      <find>strate</find>
+      <find>stra</find>
+      <find>for</find>
+      <find>n</find>
+      <find>generated</find>
+      <find>generatedD</find>
+      <find>size</find>
+      <find>gw</find>
+      <find>PS</find>
+      <find>padt</find>
+      <find>system.out</find>
+      <find>println</find>
+      <find>system</find>
+      <find>rel</find>
+      <find>] =</find>
+      <find>pq.add</find>
+      <find>.get</find>
+      <find>TODO</find>
+      <find>Array</find>
+      <find>check</find>
+      <find>check(</find>
+      <find>nodeList</find>
+      <find>initialize</find>
+      <find>initia</find>
+      <find>printP</find>
+      <find>parent</find>
+      <find>PRINT</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Jamie Kirkwin &lt;jkirkwin@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Testing/duplicateValueIn01.txt" />
+        <option value="$PROJECT_DIR$/Testing/duplicateValueIn02.txt" />
+        <option value="$PROJECT_DIR$/Testing/duplicateValueOut01.txt" />
+        <option value="$PROJECT_DIR$/Testing/duplicateValueOut02.txt" />
+        <option value="$PROJECT_DIR$/Testing/duplicateValueIn03.txt" />
+        <option value="$PROJECT_DIR$/Testing/duplicateValueOut03.txt" />
+        <option value="$PROJECT_DIR$/Testing/invalidKIn01.txt" />
+        <option value="$PROJECT_DIR$/Testing/invalidKIn02.txt" />
+        <option value="$PROJECT_DIR$/Testing/invalidKOut01.txt" />
+        <option value="$PROJECT_DIR$/Testing/invalidKOut02.txt" />
+        <option value="$PROJECT_DIR$/Testing/smallIn01.txt" />
+        <option value="$PROJECT_DIR$/Testing/vanillaIn02.txt" />
+        <option value="$PROJECT_DIR$/Testing/vanillaIn01.txt" />
+        <option value="$PROJECT_DIR$/Testing/vanillaOut02.txt" />
+        <option value="$PROJECT_DIR$/Testing/vanillaOut01.txt" />
+        <option value="$PROJECT_DIR$/Testing/smallOut01.txt" />
+        <option value="$PROJECT_DIR$/Testing/smallIn02.txt" />
+        <option value="$PROJECT_DIR$/Testing/smallOut02.txt" />
+        <option value="$PROJECT_DIR$/Testing/smallIn03.txt" />
+        <option value="$PROJECT_DIR$/Testing/smallOut03.txt" />
+        <option value="$PROJECT_DIR$/Testing/smallIn06.txt" />
+        <option value="$PROJECT_DIR$/Testing/smallOut06.txt" />
+        <option value="$PROJECT_DIR$/Testing/generateTest.java" />
+        <option value="$PROJECT_DIR$/QuickSelect.java" />
+        <option value="$PROJECT_DIR$/MidtermReview/quickSelect.java" />
+        <option value="$PROJECT_DIR$/MidtermReview/adjacencyStructure.java" />
+        <option value="$PROJECT_DIR$/MidtermReview/UnionFind.java" />
+        <option value="$PROJECT_DIR$/MidtermReview/QuickFind.java" />
+        <option value="$PROJECT_DIR$/MidtermReview/QuickUnion.java" />
+        <option value="$PROJECT_DIR$/MidtermReview/WeightedQuickUnion.java" />
+        <option value="$PROJECT_DIR$/MidtermReview/WQUPC.java" />
+        <option value="$PROJECT_DIR$/MidtermReview/WQUWPC.java" />
+        <option value="$PROJECT_DIR$/MST.java" />
+        <option value="$PROJECT_DIR$/A2/Testing/graphs.txt" />
+        <option value="$PROJECT_DIR$/A2/Testing/testgraphs.txt" />
+        <option value="$PROJECT_DIR$/A2/Testing/testgraphs_opt_costs.txt" />
+        <option value="$PROJECT_DIR$/A2/Testing/GenerateTests.java" />
+        <option value="$PROJECT_DIR$/A2/Testing/GraphWrapper.java" />
+        <option value="$PROJECT_DIR$/A2/Testing/ManuallyCreated/out01.txt" />
+        <option value="$PROJECT_DIR$/A2/Testing/ManuallyCreated/in01.txt" />
+        <option value="$PROJECT_DIR$/A2/MST.java" />
+        <option value="$PROJECT_DIR$/A2/Testing/Provided/graphs.txt" />
+        <option value="$PROJECT_DIR$/A2/Testing/Provided/testgraphs.txt" />
+        <option value="$PROJECT_DIR$/A2/Testing/Provided/testgraphs_opt_costs.txt" />
+        <option value="$PROJECT_DIR$/A3/Resources/input01.txt" />
+        <option value="$PROJECT_DIR$/A3/Resources/output01.txt" />
+        <option value="$PROJECT_DIR$/A3/ShortestPaths.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Dayton/ShortestPaths.java" />
+        <option value="$PROJECT_DIR$/Dayton/daytonA3.java" />
+        <option value="$PROJECT_DIR$/A4/KMP.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
+              <item name="A2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
+              <item name="A2" type="462c0819:PsiDirectoryNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
+              <item name="A2" type="462c0819:PsiDirectoryNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="Generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
+              <item name="A3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
+              <item name="A4" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543093194047" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jamie\IdeaProjects\CSC226\Dayton" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jamie\IdeaProjects\CSC226\A3" />
+      <recent name="C:\Users\Jamie\IdeaProjects\CSC226\A2\Testing" />
+      <recent name="C:\Users\Jamie\IdeaProjects\CSC226\A2\Testing\Provided" />
+      <recent name="C:\Users\Jamie\IdeaProjects\CSC226\A2" />
+      <recent name="C:\Users\Jamie\IdeaProjects\CSC226\Testing" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e31befb-0a24-4d38-b172-a73ddccf87ad" name="Default Changelist" comment="" />
+      <created>1537660606254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537660606254</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Testing committing from Intellij">
+      <created>1537661406025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537661406025</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Completed and tested assignment. Final submission is QuickSelect.java.">
+      <created>1537931889913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537931889913</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Moved generateTest to testing folder">
+      <created>1537931947220</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537931947220</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implemented mst(), generated 2 batches of 999 in/out pairs (unique edge weights), provided and generated tests all pass">
+      <created>1539542043893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539542043893</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cleanup, modify gitignore">
+      <created>1539543224594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539543224594</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Test on input with duplicate edge weights">
+      <created>1539544279109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539544279109</updated>
+    </task>
+    <task id="LOCAL-00007" summary="A3 Code">
+      <created>1541376767637</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541376767637</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Final A3 Submission">
+      <created>1541394842607</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541394842607</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add A4 directory and basic setup code">
+      <created>1543093020557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543093020558</updated>
+    </task>
+    <task id="LOCAL-00010" summary="gitignore fix pt 1">
+      <created>1543093245812</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543093245812</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11311054" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.15633424" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49871466" visible="true" weight="0.18463612" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5012854" side_tool="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4993573" weight="0.32614556" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32884097" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15424165" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.15633424" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49871466" weight="0.32479784" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5012854" side_tool="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4993573" weight="0.32749325" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32884097" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="Testing committing from Intellij" />
+    <MESSAGE value="Completed and tested assignment. Final submission is QuickSelect.java." />
+    <MESSAGE value="Moved generateTest to testing folder" />
+    <MESSAGE value="Implemented mst(), generated 2 batches of 999 in/out pairs (unique edge weights), provided and generated tests all pass" />
+    <MESSAGE value="Cleanup, modify gitignore" />
+    <MESSAGE value="Test on input with duplicate edge weights" />
+    <MESSAGE value="A3 Code" />
+    <MESSAGE value="Final A3 Submission" />
+    <MESSAGE value="Add A4 directory and basic setup code" />
+    <MESSAGE value="gitignore fix pt 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore fix pt 1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/A1/QuickSelect.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MidtermReview/WQUWPC.java" />
+    <entry file="file://$PROJECT_DIR$/MidtermReview/QuickUnion.java" />
+    <entry file="file://$PROJECT_DIR$/MidtermReview/WeightedQuickUnion.java" />
+    <entry file="file://$PROJECT_DIR$/A1/Testing/generateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch00/in00" />
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch00/in00.txt" />
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch00/out00.txt" />
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch00/README.txt" />
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch001/in005.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch001/in004.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch001/in001.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch001/out004.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch001/out005.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/in001.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/in002.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/in003.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/in004.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/in005.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/out001.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/out002.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch002/out002.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch002/in004.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch002/in003.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch002/in002.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch002/in001.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch002/out004.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch003/in005.txt" />
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/out186.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/out181.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/out183.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch000/out432.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/ManuallyCreated/out01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/ManuallyCreated/in01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/MST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="251" column="27" selection-start-line="251" selection-start-column="27" selection-end-line="251" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/GraphWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Provided/graphs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Provided/testgraphs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21267">
+          <caret line="1251" column="2044" selection-start-line="1251" selection-start-column="2044" selection-end-line="1251" selection-end-column="2044" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/Provided/testgraphs_opt_costs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/Resources/input01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/Resources/output01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/Resources/input02.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="144" column="304" selection-start-line="144" selection-start-column="304" selection-end-line="144" selection-end-column="307" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/Resources/output02.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="123" selection-start-line="24" selection-start-column="123" selection-end-line="24" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dayton/Resources/input01.txt" />
+    <entry file="file://$PROJECT_DIR$/Dayton/ShortestPaths.java" />
+    <entry file="file://$PROJECT_DIR$/Dayton/daytonA3.java" />
+    <entry file="file://$PROJECT_DIR$/A3/ShortestPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9115#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/Testing/GenerateTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A4/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#1187#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CSC226</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
