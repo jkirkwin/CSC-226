@@ -10,24 +10,46 @@ import java.io.FileNotFoundException;
 
 public class KMP{
     private final String pattern;
-
+    private final String alphabet = "ACGT";
     private final int[][] DFA;
 
     public KMP(String pattern){
 		assert patter != null;
 		this.pattern = pattern;
 
-		// TODO create DFA
-
-
+        DFA = new int[this.alphabet.length][this.pattern.length];
+        DFA[pattern.charAt(0)][0] = 1;
+        for(int i = 0, j = 1; j < this.pattern.length; j++) {
+            for(int k = 0; k < this.alphabet.length; k++) {
+                DFA[k][j] = dfa[k][i];
+            }
+            DFA[this.pattern.charAt(j)][j] = j+1;
+            i = DFA[this.pattern.charAt(j)][i];
+        }
     }
     
     public int search(String txt){
-		// TODO Implement search
-		/* Should return the index of the first occurrence of the pattern
-		 * if it exists. Return length of text otherwise.
-		 */
-		return -1;
+        // Remove whitespace
+        txt = txt.replaceAll("\\s+","")
+
+        int state = 0, position = 0;
+        while(state < this.pattern.length && position < txt.length) {
+            char nextChar = txt.charAt(position++);
+            int row = getMapping(nextChar);
+            int col = state;
+            state = DFA[row][col];
+        }
+
+        if(state >= this.pattern.length) {
+            return position - this.pattern.length;
+        } else {
+            return position; // Pattern not found
+        }
+    }
+
+    private int getMapping(char c) {
+        c = Character.toUpperCase(c);
+        return alphabet.indexOf(c);
     }
     
     public static void main(String[] args) throws FileNotFoundException{
