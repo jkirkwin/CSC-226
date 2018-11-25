@@ -16,7 +16,6 @@ public class KMP {
     public KMP(String pattern){
 		assert pattern != null;
 		this.pattern = pattern;
-
         DFA = new int[this.alphabet.length()][this.pattern.length()];
         DFA[getMapping(pattern.charAt(0))][0] = 1;
         for(int i = 0, j = 1; j < this.pattern.length(); j++) {
@@ -29,9 +28,6 @@ public class KMP {
     }
     
     public int search(String txt){
-        // Remove whitespace
-        txt = txt.replaceAll("\\s+","");
-
         int state = 0, position = 0;
         while(state < this.pattern.length() && position < txt.length()) {
             char nextChar = txt.charAt(position++);

@@ -8,7 +8,7 @@ public class GenerateTests {
         int numTests = Integer.parseInt(args[0]);
         int textLen = Integer.parseInt(args[1]);
         int patLen = Integer.parseInt(args[2]);
-        if(patLen >= textLen) {
+        if(patLen > textLen) {
             System.out.println("Pattern length cannot exceed text length");
             return;
         } else if(numTests <= 0) {
