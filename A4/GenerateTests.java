@@ -4,6 +4,19 @@ public class GenerateTests {
 
     public static final String testPath = "Testing" + File.separator;
 
+    /*
+     * Generates a set of input files based on the argumnets given and saves
+     * them in the ./Testing directory
+     * Test names are not zero padded because I am lazy.
+     *
+     * @param args[0] the number of tests to be generated
+     * @param args[1] the length of the text for these tests
+     * @param args[2] the length of the pattern for these tests
+     *
+     * @pre args[0] > 0
+     * @pre args[1] >= args[2]
+     * @pre args[1], args[2] >= 0
+     */
     public static void main(String[] args) {
         int numTests = Integer.parseInt(args[0]);
         int textLen = Integer.parseInt(args[1]);

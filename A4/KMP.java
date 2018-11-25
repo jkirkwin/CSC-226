@@ -35,7 +35,6 @@ public class KMP {
             int col = state;
             state = DFA[row][col];
         }
-
         if(state >= this.pattern.length()) {
             return position - this.pattern.length();
         } else {
@@ -49,7 +48,9 @@ public class KMP {
     }
     
     public static void main(String[] args) throws FileNotFoundException{
-		Scanner s;
+		// Main method was provided.
+        /*
+        Scanner s;
 		if (args.length > 0){
 			try{
 				s = new Scanner(new File(args[0]));
@@ -77,4 +78,5 @@ public class KMP {
 			System.out.println("usage: java SubstringSearch <filename> <pattern_1> <pattern_2> ... <pattern_n>.");
 		}
     }
+    */
 }

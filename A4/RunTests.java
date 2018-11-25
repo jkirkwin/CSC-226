@@ -6,10 +6,13 @@ public class RunTests {
     private static int passCount = 0;
     private static int testCount = 0;
 
+    /*
+     * Runs KMP with all files in the Testing directory (see GenerateTests.java)
+     * and compares the result to text.indexOf(pattern) (java.lang.String)
+     */
     public static void main(String[] args) {
         File testDir = new File(GenerateTests.testPath);
         for(File f : testDir.listFiles()) {
-//            System.out.println("Running " + f.getPath());
             runTest(f);
         }
         System.out.println("Passed " + passCount + " of " + testCount + " tests");
