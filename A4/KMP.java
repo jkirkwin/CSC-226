@@ -48,35 +48,20 @@ public class KMP {
     }
     
     public static void main(String[] args) throws FileNotFoundException{
-		// Main method was provided.
-        /*
-        Scanner s;
-		if (args.length > 0){
-			try{
-				s = new Scanner(new File(args[0]));
-			} catch(java.io.FileNotFoundException e){
-				System.out.println("Unable to open "+args[0]+ ".");
-				return;
-			}
-			System.out.println("Opened file "+args[0] + ".");
-			String text = "";
-			while(s.hasNext()){
-				text += s.next() + " ";
-			}
+        Scanner inputScanner, patternScanner;
+        try{
+            inputScanner = new Scanner(new File("Testing\\Provided\\input_text.txt"));
+            patternScanner = new Scanner(new File("Testing\\Provided\\input_patterns.txt"));
+        } catch(java.io.FileNotFoundException e){
+            System.out.println("Unable to open provided files.");
+            return;
+        }
 
-			for(int i = 1; i < args.length; i++){
-				KMP k = new KMP(args[i]);
-				int index = k.search(text);
-				if(index >= text.length()){
-					System.out.println(args[i] + " was not found.");
-				}
-				else {
-					System.out.println("The string \"" + args[i] + "\" was found at index " + index + ".");
-				}
-			}
-		} else{
-			System.out.println("usage: java SubstringSearch <filename> <pattern_1> <pattern_2> ... <pattern_n>.");
-		}
+        String text = inputScanner.next();
+        KMP kmp;
+        while (patternScanner.hasNext()) {
+            kmp = new KMP(patternScanner.next());
+            System.out.println(kmp.search(text));
+        }
     }
-    */
 }

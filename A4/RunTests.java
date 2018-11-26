@@ -13,7 +13,9 @@ public class RunTests {
     public static void main(String[] args) {
         File testDir = new File(GenerateTests.testPath);
         for(File f : testDir.listFiles()) {
-            runTest(f);
+            if(!f.isDirectory()) {
+                runTest(f);
+            }
         }
         System.out.println("Passed " + passCount + " of " + testCount + " tests");
     }

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e31befb-0a24-4d38-b172-a73ddccf87ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/GenerateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/GenerateTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A4/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/KMP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A4/RunTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/RunTests.java" afterDir="false" />
     </list>
@@ -18,8 +17,9 @@
     <session id="941424713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="1" />
@@ -30,7 +30,7 @@
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,7 +39,7 @@
           <entry key="gitignore" value="6" />
           <entry key="in00" value="1" />
           <entry key="java" value="27" />
-          <entry key="txt" value="113" />
+          <entry key="txt" value="117" />
           <entry key="vanillaIn02" value="1" />
           <entry key="vanillaOut02" value="1" />
         </counts>
@@ -48,44 +48,43 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="26" />
-          <entry key="PLAIN_TEXT" value="123" />
+          <entry key="PLAIN_TEXT" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="77" />
-          <entry key="java" value="37222" />
-          <entry key="txt" value="856" />
+          <entry key="java" value="38302" />
+          <entry key="txt" value="991" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37168" />
-          <entry key="PLAIN_TEXT" value="987" />
+          <entry key="JAVA" value="38248" />
+          <entry key="PLAIN_TEXT" value="1122" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/A4/KMP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="403">
+              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
               <folding>
-                <element signature="e#0#1187#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A4/RunTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="255">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A4/GenerateTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="1003">
+              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="408">
               <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
             </state>
           </provider>
@@ -210,8 +209,8 @@
         <option value="$PROJECT_DIR$/A4/Testing/GenerateTests.java" />
         <option value="$PROJECT_DIR$/A4/Testing/RunTests.java" />
         <option value="$PROJECT_DIR$/A4/GenerateTests.java" />
-        <option value="$PROJECT_DIR$/A4/KMP.java" />
         <option value="$PROJECT_DIR$/A4/RunTests.java" />
+        <option value="$PROJECT_DIR$/A4/KMP.java" />
       </list>
     </option>
   </component>
@@ -239,41 +238,13 @@
             <path>
               <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSC226" type="462c0819:PsiDirectoryNode" />
-              <item name="A1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
-              <item name="A1" type="462c0819:PsiDirectoryNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="Generated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC226" type="462c0819:PsiDirectoryNode" />
-              <item name="A3" type="462c0819:PsiDirectoryNode" />
+              <item name="A4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSC226" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSC226" type="462c0819:PsiDirectoryNode" />
               <item name="A4" type="462c0819:PsiDirectoryNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,7 +255,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543122401424" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543263789211" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -410,7 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543100498503</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tested, omitted whitespace stripping per email with Nishant">
+      <created>1543122484270</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543122484270</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Cleanup">
+      <created>1543123726386</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1543123726386</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -426,7 +411,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13496144" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13624679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -501,21 +486,11 @@
     <MESSAGE value="gitignore fix pt 1" />
     <MESSAGE value="1st pass at completing assignment" />
     <MESSAGE value="Syntax fixes, add testing machinery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Syntax fixes, add testing machinery" />
+    <MESSAGE value="Tested, omitted whitespace stripping per email with Nishant" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch001/in005.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch001/in004.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch001/in001.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch001/out004.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/A2/Testing/Generated/batch001/out005.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -662,17 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9115#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -683,31 +647,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A4/Testing/test1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A4/Testing/test0.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A4/Testing/test2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A4/Testing/test3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/A4/Testing/test1.txt" />
+    <entry file="file://$PROJECT_DIR$/A4/Testing/test0.txt" />
+    <entry file="file://$PROJECT_DIR$/A4/Testing/test2.txt" />
+    <entry file="file://$PROJECT_DIR$/A4/Testing/test3.txt" />
     <entry file="file://$PROJECT_DIR$/A4/GenerateTests.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/A4/Testing/test5.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A4/Testing/test4.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/A4/Testing/test5.txt" />
+    <entry file="file://$PROJECT_DIR$/A4/Testing/test4.txt" />
+    <entry file="file://$PROJECT_DIR$/A4/Testing/test4201.txt" />
+    <entry file="file://$PROJECT_DIR$/A4/Testing/test3559.txt" />
+    <entry file="file://$PROJECT_DIR$/A4/Testing/test3560.txt" />
+    <entry file="file://$PROJECT_DIR$/A4/Testing/test3561.txt" />
     <entry file="file://$PROJECT_DIR$/A4/GenerateTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="1003">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A4/RunTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -716,19 +689,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/A4/KMP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#1187#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A4/RunTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="403">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
